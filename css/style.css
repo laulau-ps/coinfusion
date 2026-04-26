@@ -507,3 +507,77 @@ body {
         }
     }
 }
+
+.why-we-sec {
+    display: flex;
+    gap: 124.5px;
+    justify-content: space-between;
+    margin-top: 81px;
+    width: 100%;
+    padding: 0px 78px;
+    align-items: center;
+
+    & .left-side {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 60%;
+        height: 231px;
+
+        & p {
+            font-size: 30px;
+            line-height: 39px;
+            color: black;
+            max-width: 696px;
+        }
+
+        & .bottom {
+            display: flex;
+            gap: 18px;
+            align-items: center;
+
+            & .btn {
+                display: flex;
+                width: 170px;
+                height: 45px;
+                border-radius: 75px;
+                background-color: #5846FB;
+                justify-content: center;
+                align-items: center;
+
+                & a {
+                    text-decoration: none;
+                    font-size: 15px;
+                    line-height: 18px;
+                    font-weight: 600;
+                    color: #fff;
+                }
+            }
+
+            & a {
+                font-size: 15px;
+                line-height: 18px;
+                font-weight: 600;
+                color: #bbb;
+            }
+        }
+    }
+
+    & .right-side {
+        display: flex;
+        gap: 16px;
+        width: 40%;
+        align-items: baseline;
+
+        & .left-pill {
+            width: 198px;
+            height: 330px;
+
+        }
+        
+        & .right-pill {
+            width: 247px;
+            height: 381px;
+        }
+    }
+}
